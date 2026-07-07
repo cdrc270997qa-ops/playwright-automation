@@ -1,4 +1,0 @@
-"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
-"","11845","Invalid login Test Failed","tests","Sat May 02 09:53:25 UTC 2026","failed","Sat May 02 09:53:37 UTC 2026","Login Tests","login.spec.ts","",""
-"","6973","user can access secure area","tests","Sat May 02 09:53:16 UTC 2026","failed","Sat May 02 09:53:23 UTC 2026","Secure Area Tests","secure.spec.ts","",""
-"","2905","authenticate user","setup","Sat May 02 09:52:52 UTC 2026","passed","Sat May 02 09:52:55 UTC 2026","","setup/auth.setup.ts","",""

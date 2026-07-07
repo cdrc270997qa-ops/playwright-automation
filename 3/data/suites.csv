@@ -1,0 +1,4 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"","11455","Invalid login Test Failed","tests","2026-07-07","failed","2026-07-07","Login Tests","login.spec.ts","",""
+"","2499","authenticate user","setup","2026-07-07","passed","2026-07-07","","setup/auth.setup.ts","",""
+"","6809","user can access secure area","tests","2026-07-07","failed","2026-07-07","Secure Area Tests","secure.spec.ts","",""
