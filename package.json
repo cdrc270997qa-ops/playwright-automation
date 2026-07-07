@@ -3,12 +3,21 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+    "test": "playwright test",
+    "test:ui": "playwright test --ui",
+    "report": "playwright show-report",
+    "test:allure": "npx playwright test || cd . && npx allure generate -o allure-report && npx allure open allure-report --port 9704"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "@playwright/test": "^1.59.1",
-    "@types/node": "^25.6.0"
+    "@types/node": "^25.6.0",
+    "allure-playwright": "^3.7.1"
+  },
+  "dependencies": {
+    "dotenv": "^17.4.2"
   }
 }
